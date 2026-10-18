@@ -37,12 +37,9 @@ if let enumerator = FileManager.default.enumerator(
             )
 
             if attributes.isDirectory == true {
-                let relativePath = fileURL.path
-                    .replacingOccurrences(
-                        of: objcTargetDirectory.path + "/",
-                        with: ""
-                    )
-
+		let relativePath = String(
+    			fileURL.path.dropFirst(objcTargetDirectory.path.count + 1)
+		)
                 settings.append(.headerSearchPath(relativePath))
             }
         } catch {
