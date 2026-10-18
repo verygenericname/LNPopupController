@@ -7,7 +7,7 @@
 //
 
 #import <LNPopupController/LNPopupBar.h>
-#import "LNPopupBarAppearanceChainProxy.h"
+#import "Appearance/LNPopupBarAppearanceChainProxy.h"
 #import "LNPopupBarAppearance+Private.h"
 #import "_LNPopupBarBackgroundView.h"
 #import "_LNPopupBackgroundShadowView.h"
