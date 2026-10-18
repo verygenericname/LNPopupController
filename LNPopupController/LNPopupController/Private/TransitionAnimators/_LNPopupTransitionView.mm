@@ -7,7 +7,7 @@
 //
 
 #import "_LNPopupTransitionView.h"
-#import "_LNPopupBase64Utils.hh"
+#import "../Utils/_LNPopupBase64Utils.hh"
 
 @implementation _LNPopupTransitionView
 {

@@ -7,7 +7,7 @@
 //
 
 #import "_LNPopupUIBarAppearanceProxy.h"
-#import "_LNPopupSwizzlingUtils.h"
+#import "../Utils/_LNPopupSwizzlingUtils.h"
 #import "_LNPopupBase64Utils.hh"
 #import "_LNPopupGlassUtils.h"
 
